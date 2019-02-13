@@ -29,6 +29,8 @@ class Customer {
 }
 
 $product1 = new Product('MacBook', 2500);
+$klant1 = new Customer('Henk',21, 543);
 
-
-var_dump($product1);
+echo $product1->name . " " . $product1->price;
+echo "<br>";
+echo $klant1->name . " " . $klant1->age . " " . $klant1->customer_number;
